@@ -1,0 +1,25 @@
+name: 'HyperSpeed'
+scopeName: 'hyperspeed'
+type: 'tree-sitter'
+parser: 'tree-sitter-hyperspeed'
+scopes: 
+    '''
+    '+',
+    '-',
+    '*',
+    '/',
+    '>>',
+    '<<',
+    '.',
+    '='
+    '@'
+    '!'
+    '$'
+    '%'
+    '&'
+    ''': 'keyword.operator'
+    '''
+    'if',
+    'elif',
+    'else'
+    ''': 'keyword.control'
